@@ -19,6 +19,6 @@ mvn
 git clone https://github.com/Deepanshusuman/nodeshealth.git
 cd nodeshealth
 mvn clean install
-mvn spring-boot:run
+mvn spring-boot:start
 echo "Done"
 
