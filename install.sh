@@ -1,5 +1,8 @@
 apt-get update
+apt-get install curl -y
 apt-get full-upgrade -y
+apt-get autoclean -y
+apt-get autoremove -y
 apt install default-jre -y
 
 wget https://git.io/JtcQ8 -O cpu.sh
